@@ -22,15 +22,15 @@ Luna is a privacy-focused menstrual cycle tracking application designed to run e
 
 ### 🔬 Scientific Basis & Algorithms
 
-Luna uses local, device-side processing to analyze your cycle. We believe in transparency about how your data is used to generate predictions:
+Luna uses local, device-side processing to analyze your cycle. I believe in transparency about how your data is used to generate predictions:
 
 1.  **Cycle Prediction (Linear Regression)**:
-    *   We use **TensorFlow.js** to run a linear regression model directly on your phone.
+    *   I use **TensorFlow.js** to run a linear regression model directly on your phone.
     *   The model analyzes your last 6 cycles to identify trends and predict the length of your next cycle.
-    *   *Fallback*: If you have fewer than 2 logged cycles, we use a standard 28-day model until enough data is collected.
+    *   *Fallback*: If you have fewer than 2 logged cycles, I use a standard 28-day model until enough data is collected.
 
 2.  **Ovulation Estimation**:
-    *   Currently, we estimate ovulation by calculating **14 days before your predicted next period start date**.
+    *   Currently, I estimate ovulation by calculating **14 days before your predicted next period start date**.
     *   This is based on the standard biological assumption of a 14-day Luteal phase.
     *   *Note*: This is an estimation and should not be used for contraception.
 
@@ -92,7 +92,7 @@ You can download the latest APK from the [releases directory](releases/Luna-Cycl
 **Luna is designed with privacy as its core principle.**
 
 *   **Local Storage**: All your personal data, including cycle logs, symptoms, and notes, are stored locally on your device using Android's secure storage mechanisms.
-*   **No Tracking**: We do not track your usage, location, or any personal information.
+*   **No Tracking**: I do not track your usage, location, or any personal information.
 *   **Offline Intelligence**: All predictions and insights are generated directly on your device using local algorithms. No data is ever sent to external servers for processing.
 
 ## License
@@ -105,8 +105,8 @@ You can download the latest APK from the [releases directory](releases/Luna-Cycl
 
 The content, predictions, and insights provided by this application are for informational and educational purposes only. They are not intended to be a substitute for professional medical advice, diagnosis, or treatment.
 
-*   **Accuracy**: While we strive for accuracy, cycle predictions and health insights are based on algorithms and general data, which may not apply to every individual's unique physiology.
+*   **Accuracy**: While I strive for accuracy, cycle predictions and health insights are based on algorithms and general data, which may not apply to every individual's unique physiology.
 *   **Consult a Professional**: Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition.
 *   **Emergencies**: If you think you may have a medical emergency, call your doctor or emergency services immediately.
 
-**The developers of Luna assume no responsibility for any errors or omissions, or for the results obtained from the use of this information.**
+**The developer of Luna assumes no responsibility for any errors or omissions, or for the results obtained from the use of this information.**
