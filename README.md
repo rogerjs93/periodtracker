@@ -6,6 +6,12 @@ Luna is a privacy-focused menstrual cycle tracking application designed to run e
 <!-- Add a screenshot or banner here if available -->
 </div>
 
+<div align="center">
+  <img src="screenshots/luna-main.png" alt="Luna Main View" width="300" />
+  <img src="screenshots/luna-details.png" alt="Luna Details View" width="300" />
+  <p><i>Left: Main Dashboard showing current cycle phase. Right: Detailed insights and cycle stats.</i></p>
+</div>
+
 ## Features
 
 *   **Privacy First**: All data is stored locally on your device. No data is sent to the cloud.
@@ -71,3 +77,15 @@ You can download the latest APK from the [releases directory](releases/Luna-Cycl
 ## License
 
 [MIT License](LICENSE)
+
+## ⚠️ Medical Disclaimer
+
+**Luna is NOT a medical device.**
+
+The content, predictions, and insights provided by this application are for informational and educational purposes only. They are not intended to be a substitute for professional medical advice, diagnosis, or treatment.
+
+*   **Accuracy**: While we strive for accuracy, cycle predictions and health insights are based on algorithms and general data, which may not apply to every individual's unique physiology.
+*   **Consult a Professional**: Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition.
+*   **Emergencies**: If you think you may have a medical emergency, call your doctor or emergency services immediately.
+
+**The developers of Luna assume no responsibility for any errors or omissions, or for the results obtained from the use of this information.**
