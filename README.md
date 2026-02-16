@@ -17,8 +17,29 @@ Luna is a privacy-focused menstrual cycle tracking application designed to run e
 *   **Privacy First**: All data is stored locally on your device. No data is sent to the cloud.
 *   **Cycle Tracking**: Log your periods and predict future cycles.
 *   **Symptom & Mood Logging**: Keep track of your daily symptoms and moods to understand your body better.
-*   **Smart Cycle Predictions**: Local algorithms (TensorFlow.js) analyze your history to predict your next cycle and provide personalized health insights. No internet connection required.
+*   **Smart Cycle Predictions**: Local algorithms (TensorFlow.js) analyze your history to predict your next cycle.
 *   **Pet Companion**: A fun, interactive pet companion that evolves with your usage.
+
+### 🔬 Scientific Basis & Algorithms
+
+Luna uses local, device-side processing to analyze your cycle. We believe in transparency about how your data is used to generate predictions:
+
+1.  **Cycle Prediction (Linear Regression)**:
+    *   We use **TensorFlow.js** to run a linear regression model directly on your phone.
+    *   The model analyzes your last 6 cycles to identify trends and predict the length of your next cycle.
+    *   *Fallback*: If you have fewer than 2 logged cycles, we use a standard 28-day model until enough data is collected.
+
+2.  **Ovulation Estimation**:
+    *   Currently, we estimate ovulation by calculating **14 days before your predicted next period start date**.
+    *   This is based on the standard biological assumption of a 14-day Luteal phase.
+    *   *Note*: This is an estimation and should not be used for contraception.
+
+3.  **Phase-Based Insights**:
+    Luna breaks your cycle down into the four hormonal phases to give you tailored advice:
+    *   **Menstrual (Days 1-5)**: Focus on rest and iron-rich foods.
+    *   **Follicular (Days 6-11)**: High energy! Great for HIIT and creative projects.
+    *   **Ovulatory (Days 12-16)**: Peak social energy and confidence.
+    *   **Luteal (Days 17-28+)**: Progesterone rises; focus on organizing and complex carbs to stabilize mood.
 
 ## Tech Stack
 
