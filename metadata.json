@@ -1,0 +1,5 @@
+{
+  "name": "Luna - Privacy-First Cycle Tracker",
+  "description": "A secure, offline-capable menstrual cycle tracker with on-device predictions and optional AI health insights.",
+  "requestFramePermissions": []
+}
